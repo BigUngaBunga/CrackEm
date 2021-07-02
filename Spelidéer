@@ -1,14 +1,30 @@
-
-Towerbuiler med stenar och pinnar av olika former som byggmaterial
-
-Ett spel som liknar fire boy water girl fast en karaktär är en pinne som kan flyta men inte kan trycka på knappar, då denne är för lätt. 
-Den andra karaktären är en sten som inte kan flyta men kan trycka på knappar
-
-Sten studsar på pinne för att förstöra teknologi
+Breakout:
+Pinne: Kontrolleras av spelare
+Sten: Studsar på pinne, förstöre hinder
+Mål: Förstör alla hinder
+Hinder: Baserade på dryckesglas, exempelvis vinglas med ett i liv, vanliga glas med två osv, hinder som skadar spelaren om de träffas.
 
 ###################
 # Skippade idéer
 ###################
+
+Towerbuiler:
+Stenar och pinnar av olika former som byggmaterial.
+Stenar: Runda
+Träbitar: Rektanglar
+Fysik är igång hela tiden.
+När alla uppgifter är avklarade så börjar tidtagningen, om tornet står kvar när klockan når noll så klarar spelaren nivån.
+Uppgifter: Bygg så högt, använd alla bitar, använd bara x delar
+Grunden kan variera i hur mycket som finns.
+
+Stick and Stone:
+(Liknar fire boy water girl)
+Karaktärer: Pinne, Sten
+Pinne: kan flyta, kan inte trycka på knappar, kan klämma sig igenom galler
+Sten: kan inte flyta, kan trycka på knappar, råtthål som bara stenen kan gå igenom.
+Plats: I en kloak med massa vatten.
+Mål: Ta sig ut
+
 
 Ugaa booga slå varandra med stenar och trä verktyg
 
