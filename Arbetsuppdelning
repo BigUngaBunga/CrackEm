@@ -1,0 +1,36 @@
+Musik
+Bakgrundsmusik
+
+Ljud
+Sten studsar mot pinne, sten krossar glas, molotov explodera, positiv modifierare, negativ modifierare
+
+Texturer
+Pinnen, stenar, väggar, trämuggar, vinglas, dryckesglas, molotov, porslinsvas, bakgrund.
+
+Menyer
+Huvudmeny som leder till nivåmenyn, inställningar och avsluta spelet.
+Nivåmeny kan välja vilken nivå som skall spelas.
+Inställningar där ljud, musik och upplösning kan ställas in.
+
+Hinder
+Väggar som inte kan förstöras.
+Trämuggar, kan bara förstöras av en molotov eller en sten med en styrkemodifierare
+Vanliga glas, har varierande mängd med liv, genomskinliga glas har minst, blåa har ett mer och gröna har två mer.
+Finns antingen vinglas med 1 i liv och dryckesglas med 4 i liv.
+Molotov, när den träffas så förstör den kringliggande glas och gör att stenen blir snabbare en liten stund.
+Vas, när vasen förstörs så skapar den skärvor som faller, om de träffas platformen så tar man skada.
+
+Modifierare
+Skapas slumpmässigt när hinder förstörs.
+Har varierande effekt när de kolliderar med pinnen
+
+Stenar
+Studsar när den slår emot hinder eller pinnen. Förstör hinder som den slår emot.
+Om stenen faller utanför skärmen så förstörs den och spelaren förlorar ett liv.
+
+Pinne
+Flyttas med piltangenter och A/D
+Roteras med piltangenter och W/S
+
+Nivåer
+Skapa 15 nivåer.
