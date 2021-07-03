@@ -4,6 +4,28 @@ Sten: Studsar på pinne, förstöre hinder
 Mål: Förstör alla hinder
 Hinder: Baserade på dryckesglas, exempelvis vinglas med ett i liv, vanliga glas med två osv, hinder som skadar spelaren om de träffas.
 
+Typer av hinder: 
+Väggar som är oförstörbara.
+Vanliga glas som bara har liv. Vinglas har lite, vanliga glas har fler
+Trämugg måste ha uppgradering eller molotov för att förstöra.
+Molotov cocktail gör stenen snabbare ett litet tag och förstör närliggande glas.
+Vas som släpper skävor när den förstörs, om skärvorna träffar pinnen så förlorar man ett liv.
+
+Modifierare:
+Styrka, gör att stenen förstör flera lager vid kollision samt att den kan förstöra trämuggar
+Fler stenar, skapar fler aktiva stener.
+Långsammare stenar
+Kan inte rotera
+Alla stenar byter riktning
+Rotera kameran
+Skyddsnät som går att aktiveras manuelt
+Plattformen stannar
+
+Tankar: Banor kan ha pinnar undertill och ovantill, pinnar roterar, stenar går rakt tills de kolliderar, modifierare.
+Liv: Tre missar. Tar skada om den sista stenen försvinner
+
+Ha i bakhuvudet: Spelaren kontrollerar plattformar som roterar runt banan, inga väggar, fler plattformar.
+
 ###################
 # Skippade idéer
 ###################
