@@ -7,12 +7,12 @@ Sten studsar mot pinne, sten krossar glas, molotov explodera, positiv modifierar
 Texturer
 Pinnen, stenar, väggar, trämuggar, vinglas, dryckesglas, molotov, porslinsvas, bakgrund.
 
-Menyer
+Menyer - UngaBunga
 Huvudmeny som leder till nivåmenyn, inställningar och avsluta spelet.
 Nivåmeny kan välja vilken nivå som skall spelas.
 Inställningar där ljud, musik och upplösning kan ställas in.
 
-Hinder
+Hinder - UngaBunga
 Väggar som inte kan förstöras.
 Trämuggar, kan bara förstöras av en molotov eller en sten med en styrkemodifierare
 Vanliga glas, har varierande mängd med liv, genomskinliga glas har minst, blåa har ett mer och gröna har två mer.
@@ -24,11 +24,11 @@ Modifierare
 Skapas slumpmässigt när hinder förstörs.
 Har varierande effekt när de kolliderar med pinnen
 
-Stenar
+Stenar - Kvirt
 Studsar när den slår emot hinder eller pinnen. Förstör hinder som den slår emot.
 Om stenen faller utanför skärmen så förstörs den och spelaren förlorar ett liv.
 
-Pinne
+Pinne - Kvirt
 Flyttas med piltangenter och A/D
 Roteras med piltangenter och W/S
 
