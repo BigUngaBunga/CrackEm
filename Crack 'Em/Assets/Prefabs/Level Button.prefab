@@ -280,5 +280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 526a36f44c9a55a4197fc75c4a947c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isUnlocked: 1
+  isUnlocked: 0
   scene: Level n
+  sceneNumber: 0
