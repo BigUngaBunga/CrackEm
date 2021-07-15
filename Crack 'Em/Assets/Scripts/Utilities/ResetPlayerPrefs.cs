@@ -8,7 +8,25 @@ namespace CrackEm
     {
         public void ResetHighestLevel()
         {
-            PlayerPrefs.SetInt("HighestLevel", 0);
+            UniversalValues.ResetHighestLevel();
+            PrintValue();
+        }
+
+        public void IcreaseHighestLevel()
+        {
+            UniversalValues.IncrementHighestLevel();
+            PrintValue();
+        }
+
+        public void DecreaseHighestLevel()
+        {
+            UniversalValues.DecrementHighestLevel();
+            PrintValue();
+        }
+
+        private void PrintValue()
+        {
+            Debug.Log("Value is now: " + UniversalValues.HighestLevel);
         }
     }
 }

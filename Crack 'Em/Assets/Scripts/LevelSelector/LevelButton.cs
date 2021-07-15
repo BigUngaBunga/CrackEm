@@ -13,9 +13,8 @@ namespace CrackEm
 
         private void Awake()
         {
-            GetComponentInChildren<TextMeshProUGUI>().SetText(sceneNumber.ToString());;
-            isUnlocked = PlayerPrefs.GetInt("HighestLevel") + 1 >= sceneNumber;
-            gameObject.GetComponent<Image>().color = isUnlocked ? Color.green : Color.red;
+            GetComponentInChildren<TextMeshProUGUI>().SetText(sceneNumber.ToString());
+            CheckIfActive();
         }
 
         public void SelectLevel()
@@ -25,6 +24,12 @@ namespace CrackEm
                 SceneManager.LoadScene(sceneNumber);
                 Debug.Log("Loaded scene " + sceneNumber);
             }
+        }
+
+        public void CheckIfActive()
+        {
+            isUnlocked = UniversalValues.HighestLevel + 1 >= sceneNumber;
+            gameObject.GetComponent<Image>().color = isUnlocked ? Color.green : Color.red;
         }
     }
 }
