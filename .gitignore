@@ -750,3 +750,5 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudio,notepadpp,csharp,vim,archlinuxpackages,windows
 Crack 'Em/Temp/UnityLockfile
+Crack 'Em/Library/ArtifactDB
+Crack 'Em/Library/SourceAssetDB
