@@ -7,23 +7,20 @@ namespace CrackEm
 
     public class ObstacleBase : MonoBehaviour
     {
-        protected int obstacleHealth;
+        [SerializeField] protected int obstacleHealth = 1;
 
-        protected virtual void WasHit()
-        {
+        protected virtual void DestroyObstacle() => Destroy(gameObject);
 
-        }
-
-        protected virtual void DestroyObstacle()
-        {
-            Destroy(this);
-        }
-
-        public void TakeDamage(int damage)
+        public virtual void TakeDamage(int damage)
         {
             obstacleHealth -= damage;
             if (obstacleHealth <= 0)
                 DestroyObstacle();
+        }
+
+        private void GenerateModifier()
+        {
+            //TODO slumpa fram modifierare
         }
     }
 }

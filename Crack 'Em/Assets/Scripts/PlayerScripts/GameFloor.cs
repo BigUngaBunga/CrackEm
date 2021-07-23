@@ -19,6 +19,7 @@ namespace CrackEm
 
         public void ActivateSafetyNet()
         {
+            Debug.Log("Activated Net");
             HandleSafetyNet(true);
             Invoke(nameof(DeactivateSafetyNet), safetyNetDuration);
         }
