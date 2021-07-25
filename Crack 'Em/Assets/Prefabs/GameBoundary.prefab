@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 2429336769094499067}
   - component: {fileID: 2429336769094499066}
   - component: {fileID: 2429336769094499060}
-  - component: {fileID: 5923825174456843404}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -106,106 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff4366674bfbe4a4b80a645cc96362ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSafetyNetActive: 0
+  safetyNetIsActive: 0
   safetyNetDuration: 2.5
---- !u!114 &5923825174456843404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2429336769094499064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 32a6da8e95d69ba4181380f163b9f7b1, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b29e5f66-b11c-4b67-b6ff-8864638e1ca4
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d2794f8b-f32e-427f-a234-e79fc24d892f
-    m_ActionName: Player/Look[/Mouse/delta,/Pen/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d4bf660d-ffb7-4bf3-848e-60c8625f9931
-    m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2429336769094499060}
-        m_TargetAssemblyTypeName: CrackEm.GameFloor, Assembly-CSharp
-        m_MethodName: ActivateSafetyNet
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 123a1ef1-eae7-46ef-9a73-3c926f9b0cb2
-    m_ActionName: Player/ActivateNet[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7495b045-1da6-4de6-bbcc-eeffbb1ff996
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 02da2168-770d-4fa7-8ce3-143ad3a9829d
-    m_ActionName: UI/Submit[/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f6a290aa-68de-4f1b-89be-be27a46d4694
-    m_ActionName: UI/Cancel[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 44f94a53-5d8c-4035-b46d-170886459678
-    m_ActionName: UI/Point[/Mouse/position,/Pen/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f814b0c4-ec2b-4800-b6b7-f9c15d8ab616
-    m_ActionName: UI/Click[/Mouse/leftButton,/Pen/tip]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d807bfb0-c529-4270-bab9-09eacfbad9a0
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 9cac07bd-5ad7-41df-b0e1-3e8f1ae9c819
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 149ced2c-aa5f-4406-92ec-2977c800eaa6
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 1c828815-7e5e-4b76-915a-27e1e839208d
-    m_ActionName: UI/TrackedDevicePosition
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 65791491-475a-438a-bb73-da676282c063
-    m_ActionName: UI/TrackedDeviceOrientation
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &2429336769150621836
 GameObject:
   m_ObjectHideFlags: 0
