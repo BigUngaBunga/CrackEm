@@ -6,7 +6,7 @@ namespace CrackEm
 {
     public class GameFloor : MonoBehaviour
     {
-        [SerializeField] private bool isSafetyNetActive;
+        [SerializeField] private bool safetyNetIsActive;
         [SerializeField] private float safetyNetDuration;
         private BoxCollider2D boxCollider;
         private SpriteRenderer spriteRenderer;
@@ -19,16 +19,19 @@ namespace CrackEm
 
         public void ActivateSafetyNet()
         {
-            Debug.Log("Activated Net");
-            HandleSafetyNet(true);
-            Invoke(nameof(DeactivateSafetyNet), safetyNetDuration);
+            //TODO går endast att aktivera om har modifieraren
+            if (!safetyNetIsActive)
+            {
+                HandleSafetyNet(true);
+                Invoke(nameof(DeactivateSafetyNet), safetyNetDuration);
+            }
         }
 
         private void DeactivateSafetyNet() => HandleSafetyNet(false);
 
         private void HandleSafetyNet(bool isActive)
         {
-            isSafetyNetActive = isActive;
+            safetyNetIsActive = isActive;
             spriteRenderer.enabled = isActive;
             boxCollider.isTrigger = !isActive;
         }

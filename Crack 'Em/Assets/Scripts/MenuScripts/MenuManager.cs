@@ -6,7 +6,7 @@ namespace CrackEm
 {
     public class MenuManager : MonoBehaviour
     {
-        [SerializeField] GameObject canvas;
+        [SerializeField] private GameObject canvas;
 
         public void OpenMenu()
         {
