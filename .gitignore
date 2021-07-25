@@ -719,3 +719,6 @@ $RECYCLE.BIN/
 # Moved to the bottom to fix .meta files being ignored
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+Crack 'Em/Library/ArtifactDB
+Crack 'Em/Library/SourceAssetDB
+Crack 'Em/Temp/UnityLockfile
